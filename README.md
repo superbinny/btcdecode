@@ -20,6 +20,3 @@
 
 ## 欢迎建议指正或直接贡献代码
 https://github.com/joepeak/bitcoindecode/issues
-
-### 微信打赏支持：
-> <img src="http://ocie6rxms.bkt.clouddn.com/wx_payme.png" width="251" height="278" >

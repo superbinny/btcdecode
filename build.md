@@ -73,12 +73,12 @@
     那么需要明确指定 Boost 位置：
 
         ./configure --enable-debug --with-boost=/usr/local/opt/boost
-        
+    
     如果你不需要图形界面，那么在执行 `./configure` 时需要加入 `--without-gui` 标志，即 `./configure --without-gui`。另外，在 Mac 系统下，为了调试比特币代码，需要把 `configure` 文件中的所有 `-g -O2` 替换为 `-g`，这是因为 Mac 下的 LLDB 存在 bug，导致某些变量不可用。
 
     当你看到下面的图片时，恭喜你编译成功了。
 
-    ![编译成功](http://ocie6rxms.bkt.clouddn.com/build-bitcoind2.png)
+    ![编译成功](images/build-bitcoind2.png)
 
     比特币编译成功时，会在 src 目录下面生成4个可执行的命令：bitcoind、bitcoin-cli、bitcoin-tx、qt/bitcoin-qt，如红框所示。
 
@@ -114,7 +114,7 @@
 
 来确认文件的模式为 `-rw-r--r—`，如图下图：
 
-![img](http://ocie6rxms.bkt.clouddn.com/bitcoin-rpc.png?nsukey=LX9ET1TIhh5ZtGUW7XMdJJYmz%2Ff%2FcrS6Squ3%2F5Pl%2Fb74yAP%2FvG1Z29Vn471wb4tbr1FCEIRmvofan7J0ON%2FCo5yQBnVmRxDY7BeTbX8Srd0TmARzFDEsFDUItKSMwy9uGzf%2BG6L0lusFk%2FgGO0osGjGq1e4iIZUYzqPOWq4r0I%2ByfGsA%2FNdUOe7Sh99aynV%2BdAhHru23S8bYCtdf1XM9QA%3D%3D)
+![img](images/bitcoin-rpc.png)
 
 
 
@@ -122,7 +122,7 @@
 
 看到文件内容如下即为设置成功。
 
-![img](http://ocie6rxms.bkt.clouddn.com/bitcoind-conf.png)
+![img](images/bitcoind-conf.png)
 
 
 
@@ -132,7 +132,7 @@
 
 键入上面的命令并按下回车键。
 
-![比特币运行图](http://ocie6rxms.bkt.clouddn.com/bitcoind-running.png)
+![img](images/bitcoind-running.png)
 
 恭喜你，你的比特币之路已经开始。
 
@@ -153,10 +153,3 @@ QQ群：253968045
 QQ号：77078193 或者 705706498
 
 微信：joepeak
-
-![image-20180829140051383](http://ocie6rxms.bkt.clouddn.com/quxiaobai.jpeg)
-
-原文发布于：
-
-http://www.uldfans.com/comment.html?reviewId=cacd3113-5222-4cd6-8014-029bce4e22ce
-

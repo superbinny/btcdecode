@@ -8,9 +8,9 @@
 
 输入之后会有一个和网络同步数据的过程，你会看到：
 
-![数据同步](http://ocie6rxms.bkt.clouddn.com/btc-sync.png)
+![数据同步](images/btc-sync.png)
 
-![数据同步](http://ocie6rxms.bkt.clouddn.com/btc-sync2.png)
+![数据同步](images/btc-sync2.png)
 
 这个过程需要一点时间，同步数据完成后，即接入了比特币网络。
 
